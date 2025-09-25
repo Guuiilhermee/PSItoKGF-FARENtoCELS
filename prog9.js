@@ -27,3 +27,15 @@ function basic(){
     resul.innerHTML += `A conversão de Celsius para Fahrenheit é: ${celsi.toFixed(2)}ºC`
 
 }
+
+let solu = document.getElementById('solu')
+
+function simples(){
+
+    let celsiu = Number(document.getElementById('celsiu').value)
+    let farenh = (celsiu - 32) / 1.8
+
+    solu.innerHTML = ``
+    solu.innerHTML += `A conversão de Fahrenheit para Celsius é: ${farenh.toFixed(2)}ºC`
+
+}
