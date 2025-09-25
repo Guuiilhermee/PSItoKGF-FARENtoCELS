@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    background-color: #555555;
+    color: #fff;
+}
+
+input, button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+    color: #fff;
+    margin: 1rem;
+    text-align: center;
+}
+
+button:hover{
+    color: #6ba3c9;
+    cursor: pointer;
+}
+
+label{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#resposta, #resul{
+    font-size: 1.30rem;
+    font-weight: bold;
+}
