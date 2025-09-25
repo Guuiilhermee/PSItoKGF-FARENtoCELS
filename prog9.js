@@ -28,6 +28,8 @@ function basic(){
 
 }
 
+// °C = (F - 32) / 1,8
+
 let solu = document.getElementById('solu')
 
 function simples(){
