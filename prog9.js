@@ -24,6 +24,6 @@ function basic(){
     let celsi = faren * 1.8 + 32
 
     resul.innerHTML = ``
-    resul.innerHTML += `A conversão de Fahrenheit para Celsius é: ${celsi.toFixed(2)}ºC`
+    resul.innerHTML += `A conversão de Celsius para Fahrenheit é: ${celsi.toFixed(2)}ºC`
 
 }
